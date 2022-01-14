@@ -5,10 +5,11 @@ name = "pypi"
 
 [packages]
 django = "*"
-mssql-django = "*"
-psycopg2-binary = "==2.8.5"
+django-tailwind = "*"
+psycopg2-binary = "==2.9.3"
+psycopg2 = "==2.9.3"
 
 [dev-packages]
 
 [requires]
-python_version = "3.6"
+python_version = "3.7"
