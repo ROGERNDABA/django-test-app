@@ -8,7 +8,7 @@ WORKDIR /app
 
 COPY Pipfile Pipfile.lock /app/
 RUN apt update
-RUN apt install -y unixodbc-dev unixodbc
+RUN apt install -y unixodbc-dev unixodbc tdsodbc
 RUN pip install pipenv && pipenv install --system
 
 COPY . /app/
