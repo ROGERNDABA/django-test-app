@@ -4,4 +4,4 @@ from django.http import HttpResponse
 
 # Create your views here.
 def index(req):
-	return render(req, 'index.html')
+	return render(req, 'babysteps/index.html')
